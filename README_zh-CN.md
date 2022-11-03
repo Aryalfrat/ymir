@@ -31,7 +31,7 @@
   <img src="https://github.com/IndustryEssentials/ymir-images/blob/main/doc_images/for_training.png" width="200"/>
   <div>&nbsp;</div>
 
-[📘使用说明](https://github.com/IndustryEssentials/ymir/blob/master/README_zh-CN.md#3-gui%E4%BD%BF%E7%94%A8-%E5%85%B8%E5%9E%8B%E6%A8%A1%E5%9E%8B%E7%94%9F%E4%BA%A7%E6%B5%81%E7%A8%8B) |
+[📘使用说明](https://github.com/IndustryEssentials/ymir/wiki/%E6%93%8D%E4%BD%9C%E8%AF%B4%E6%98%8E) |
 [🛠️安装教程](https://github.com/IndustryEssentials/ymir/blob/master/README_zh-CN.md#2-%E5%AE%89%E8%A3%85) |
 [🚀进行中的项目](https://github.com/IndustryEssentials/ymir/projects) | 
 [🤔报告问题](https://github.com/IndustryEssentials/ymir/issues/new/choose) | 
@@ -64,14 +64,15 @@
 
 # 更新内容
 
-2.0.0版本更新时间为10/21/2022
+2.0.0版本更新时间为11/15/2022
 
 YMIR平台
-- 新增数据集/模型隐藏和还原功能；
-- 支持在迭代开始前修改项目训练类别；
-- 新增模型测试模块和模型推理结果比对功能；
+- 新增模型性能诊断模块；
+- 新增模型推理结果可视化评估功能；
+- 新增公共算法库，内置多种高精度算法；
+- 新增一键部署功能，支持部署算法到认证设备；
+- 新增操作指引文档；
 - 优化代码结构；
-- 新增模型部署模块；
 
 Docker
 - 支持 [yolov5](https://github.com/ultralytics/yolov5)
